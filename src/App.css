@@ -9,28 +9,75 @@ main{
 header{
   width: 100%;
   height: 40vh;
-  background: #111;
-
+  background: #000;
 }
 .produtos{
   width: 100%;
-  height: 50vh;
-  background: #0f0;
+  height: auto;
+  float: left;
+  background: #0F0;
 }
 .card{
   width: 90%;
   height: 45vh;
-  background: #000;
+  background: #fff;
   margin-left: 5%;
   float: left;
+}
+.img-card{
+  width: 100%;
+  height: auto;
+  float: left;
+}
+.titulo-card{
+width: 90%;
+height: auto;
+float: left;
+background-color: #5656c4;
+margin-left: 5%;
+font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+text-transform: uppercase;
+text-align: center;
+
+}
+.desc{
+  width: 90%;
+height: auto;
+float: left;
+background-color: #c45656;
+margin-left: 5%;
+font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+margin-top: 1vh;
+}
+.preco{
+  width: 90%;
+height: auto;
+float: left;
+background-color: #25697a;
+margin-left: 5%;
+font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+margin-top: 2vh;
+font-weight: bold;
+text-align: center;
+float: right;
+}
+.avaliacao{
+width: 90%;
+height: auto;
+float: right;
+background-color: #c45696;
+margin-right: 5%;  
+margin-top: 1vh;
+text-align: center;font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+float: left;
 }
 .destaque{
   width: 100%;
   height: 50vh;
-  background: #0f0;
+  background: #F00;
 }
 footer{
   width: 100%;
   height: 20vh;
-  background: #00f
+  background: #00F;
 }
