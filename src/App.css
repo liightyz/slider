@@ -23,6 +23,23 @@ header{
   background: #fff;
   margin-left: 5%;
   float: left;
+  position: relative; 
+  overflow: hidden;
+  padding-bottom: 2vh;
+  margin-bottom: 2vh;
+  
+}
+.off{
+  padding: 1%;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  top: 2vh;
+  left: 0;
+  z-index: 2;
+  background: #000;
 }
 .img-card{
   width: 100%;
@@ -50,7 +67,7 @@ font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 margin-top: 1vh;
 }
 .preco{
-  width: 90%;
+  width: 40%;
 height: auto;
 float: left;
 background-color: #25697a;
@@ -60,16 +77,18 @@ margin-top: 2vh;
 font-weight: bold;
 text-align: center;
 float: right;
+margin-right: 2vh;
 }
 .avaliacao{
-width: 90%;
+width: 40%;
 height: auto;
 float: right;
 background-color: #c45696;
 margin-right: 5%;  
-margin-top: 1vh;
+margin-top: 2vh;
 text-align: center;font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 float: left;
+margin-left: 2vh;
 }
 .destaque{
   width: 100%;
