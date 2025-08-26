@@ -12,33 +12,38 @@ function App() {
         <section className="produtos">
 
           {/* Produto 1 */}
-          <div className="card">
-            <img src={Xuxa1} alt="" className='img-card'/>
-            <h2 className="titulo-card">Notebook Xuxa</h2>
-            <p className="desc">Notebook Gamer com RGB 1 nucleo e 512Mb de Ram</p>
-            <p className="preco">R$ 5.999,99</p>
-            <div className="avaliacao"> ★ ★ ★ ★ ☆</div>
-            <div className="off">- 10%</div>
-          </div>
+          <a href="#" className = "link-card">
+            <div className="card">
+              <img src={Xuxa1} alt="" className="img-card" />
+              <h2 className="titulo-card">Notebook Xuxa</h2>
+              <p className="desc">Notebook Gamer com RGB 1 nucleo e 512Mb de Ram</p>
+              <p className="preco">R$ 5.999,99</p>
+              <div className="avaliacao"> ★ ★ ★ ★ ☆</div>
+              <div className="off">- 10%</div>
+            </div>
+          </a>
           {/* Produto 2 */}
-          <div className="card">
-            <img src={Xuxa1} alt="" className='img-card'/>
-            <h2 className="titulo-card">Notebook Xuxa</h2>
-            <p className="desc">Notebook Gamer com RGB 1 nucleo e 512Mb de Ram</p>
-            <p className="preco">R$ 5.999,99</p>
-            <div className="avaliacao"> ★ ★ ★ ★ ☆</div>
-            <div className="off">- 10%</div>
-          </div>
+          <a href="#" className = "link-card">
+            <div className="card">
+              <img src={Xuxa1} alt="" className="img-card" />
+              <h2 className="titulo-card">Notebook Xuxa</h2>
+              <p className="desc">Notebook Gamer com RGB 1 nucleo e 512Mb de Ram</p>
+              <p className="preco">R$ 5.999,99</p>
+              <div className="avaliacao"> ★ ★ ★ ★ ☆</div>
+              <div className="off">- 10%</div>
+            </div>
+          </a>
           {/* Produto 3 */}
-          <div className="card">
-            <img src={Xuxa1} alt="" className='img-card'/>
-            <h2 className="titulo-card">Notebook Xuxa</h2>
-            <p className="desc">Notebook Gamer com RGB 1 nucleo e 512Mb de Ram</p>
-            <p className="preco">R$ 5.999,99</p>
-            <div className="avaliacao"> ★ ★ ★ ★ ☆</div>
-            <div className="off">- 10%</div>
-          </div>
-
+          <a href="#" className = "link-card">
+            <div className="card">
+              <img src={Xuxa1} alt="" className="img-card" />
+              <h2 className="titulo-card">Notebook Xuxa</h2>
+              <p className="desc">Notebook Gamer com RGB 1 nucleo e 512Mb de Ram</p>
+              <p className="preco">R$ 5.999,99</p>
+              <div className="avaliacao"> ★ ★ ★ ★ ☆</div>
+              <div className="off">- 10%</div>
+            </div>
+          </a>
         </section>
         <section className="destaque"></section>
         <footer></footer>
