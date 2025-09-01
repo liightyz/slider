@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import './App.css'
-import Xuxa1 from './assets/notebook-xuxa.jpg'
+import p3 from './assets/p3.jpg'
+import p4 from './assets/p4.jpg'
+import p5 from './assets/p5.webp'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,38 +16,40 @@ function App() {
           {/* Produto 1 */}
           <a href="#" className = "link-card">
             <div className="card">
-              <img src={Xuxa1} alt="" className="img-card" />
-              <h2 className="titulo-card">Notebook Xuxa</h2>
-              <p className="desc">Notebook Gamer com RGB 1 nucleo e 512Mb de Ram</p>
-              <p className="preco">R$ 5.999,99</p>
-              <div className="avaliacao"> ★ ★ ★ ★ ☆</div>
+              <img src={p3} alt="" className="img-card" />
+              <h2 className="titulo-card">Persona 3 Reload</h2>
+              <p className="desc">Jogo do persona 3 muito incrível, vale a pena, jogue</p>
+              <p className="preco">R$ 349,99</p>
+              <div className="avaliacao"> ★ ★ ★ ★ ★</div>
               <div className="off">- 10%</div>
             </div>
           </a>
           {/* Produto 2 */}
           <a href="#" className = "link-card">
             <div className="card">
-              <img src={Xuxa1} alt="" className="img-card" />
-              <h2 className="titulo-card">Notebook Xuxa</h2>
-              <p className="desc">Notebook Gamer com RGB 1 nucleo e 512Mb de Ram</p>
-              <p className="preco">R$ 5.999,99</p>
-              <div className="avaliacao"> ★ ★ ★ ★ ☆</div>
+              <img src={p4} alt="" className="img-card" />
+              <h2 className="titulo-card">Persona 4 Golden</h2>
+              <p className="desc">Persona foda, jogar é uma boa idéia, compra</p>
+              <p className="preco">R$ 99,90</p>
+              <div className="avaliacao"> ★ ★ ★ ★ ★</div>
               <div className="off">- 10%</div>
             </div>
           </a>
           {/* Produto 3 */}
           <a href="#" className = "link-card">
             <div className="card">
-              <img src={Xuxa1} alt="" className="img-card" />
-              <h2 className="titulo-card">Notebook Xuxa</h2>
-              <p className="desc">Notebook Gamer com RGB 1 nucleo e 512Mb de Ram</p>
-              <p className="preco">R$ 5.999,99</p>
-              <div className="avaliacao"> ★ ★ ★ ★ ☆</div>
+              <img src={p5} alt="" className="img-card" />
+              <h2 className="titulo-card">Persona 5 Royal</h2>
+              <p className="desc">Um jogo muito foda, joga aí man, vale muito a pena</p>
+              <p className="preco">R$ 249,99</p>
+              <div className="avaliacao"> ★ ★ ★ ★ ★</div>
               <div className="off">- 10%</div>
             </div>
           </a>
         </section>
         <section className="destaque"></section>
+
+        <iframe src="https://www.youtube.com/watch?v=fTczCpIaLAU&list=RDfTczCpIaLAU&start_radio=1" frameborder=0 allow "autoplay fullscreen"></iframe>
         <footer></footer>
       </main>
     </>
