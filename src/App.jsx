@@ -47,13 +47,23 @@ function App() {
             </div>
           </a>
         </section>
-        <section className="destaque"></section>
+        <section className="destaque">
 
-        <iframe src="https://www.youtube.com/watch?v=fTczCpIaLAU&list=RDfTczCpIaLAU&start_radio=1" frameborder=0 allow "autoplay fullscreen"></iframe>
-        <footer></footer>
-      </main>
-    </>
-  )
+        <iframe src="https://www.youtube-nocookie.com/embed/tvDyyiivXuQ?si=R-Qa8TrpeKL_q21U" frameborder="0" allow="autoplay; fullscreen"></iframe>
+
+</section>
+<footer>
+  <img src="" alt="" className ="logo-footer"/>
+ <div className="social-icons">
+  <div className="instagram"><img src="" alt="" /></div>
+  <div className="discord"><img src="" alt="" /></div>
+  <div className="X"><img src="" alt="" /></div>
+  <div className="youtube"><img src="" alt="" /></div>
+ </div>
+</footer>
+</main>
+</>
+)
 }
 
 export default App
